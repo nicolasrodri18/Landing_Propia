@@ -1,3 +1,5 @@
+/* Estilos Globales y Cuerpo */
+/* Restablece los estilos predeterminados del navegador, configura el modelo de caja básico y define la tipografía central para toda la página. */
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +12,8 @@ body {
     color: #333;
 }
 
+/* Sección de Encabezado */
+/* Estiliza la parte superior de la página con un color de fondo distintivo, alineación de texto y tamaños de fuente específicos para su título y párrafo introductorio. */
 .header {
     background-color: #04544c;
     color: white;
@@ -27,6 +31,8 @@ body {
     margin-bottom: 20px;
 }
 
+/* Formulario de Contacto */
+/* Define la apariencia de los campos de entrada y botones del formulario, incluyendo su ancho, relleno, esquinas redondeadas y efectos de desplazamiento para interactividad. */
 .contact-form {
     text-align: center;
 }
@@ -55,6 +61,8 @@ body {
     background-color: #008f00;
 }
 
+/* Sección de Características */
+/* Organiza elementos de características individuales en un diseño tipo cuadrícula, mostrando típicamente tres elementos por fila, con estilos para sus imágenes y títulos. Incluye una utilidad de limpieza. */
 .features {
     padding: 20px 10%;
     text-align: center;
@@ -82,6 +90,8 @@ body {
     clear: both;
 }
 
+/* Sección Sobre el Coach */
+/* Estructura el contenido sobre un coach, dividiéndolo en dos columnas flotantes para información e imagen, con un estilo de fondo distintivo. */
 .about-coach {
     padding: 20px 10%;
     background-color: #f0f0f0;
@@ -114,6 +124,8 @@ body {
     height: auto;
 }
 
+/* Sección de Testimonios */
+/* Estiliza un bloque de testimonios, centrando la cita y proporcionando formato para la información del autor. */
 .testimonial {
     padding: 20px 10%;
     text-align: center;
@@ -129,6 +141,8 @@ body {
     color: #04544c;
 }
 
+/* Diseño Responsivo (Media Query) */
+/* Ajusta el diseño para pantallas más pequeñas (768px o menos), haciendo que elementos como los elementos de características se apilen verticalmente y cambiando la sección del coach de un diseño de dos columnas a uno de una sola columna para una mejor visualización en dispositivos móviles. */
 @media (max-width: 768px) {
     .header {
         padding: 10px 5%;
